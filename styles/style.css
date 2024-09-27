@@ -1,0 +1,192 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+body{
+    margin: 0px;
+    font-family: sans-serif;
+}
+.header{
+    background-color: black;
+    border-bottom: 4px solid #32b9cd;
+
+}
+.header .container{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.titulo{
+    color: #32b9cd;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    width: 300px;
+    justify-content: space-between;
+    color: #e3b062;
+}
+.navbar a{
+    color: #e3b062;
+    text-decoration: none;
+    
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+}
+.banner .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .container p{
+    margin: 0px;
+    color: white;
+    font-size: 28px;
+    width: 180px;
+}
+.banner .container p span{
+    font-weight: bold;
+}
+.social{
+    height: 400px;
+    width: 100%;
+    background-color: #dcdcdc;
+}
+.social .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box img{
+    width: 100px;
+    height: 100px;
+}
+.box h4{
+    margin: 0px;
+    margin-top: 10px;
+    color: rgb(138, 62, 135);
+}
+
+.login{
+    width: 100%;
+    height: 600px;
+    background-image: url("../assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login .container{
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    float: left;
+    min-height: 100px;
+    border-radius: 8px;
+    background-color: #dcdcdc;
+    color: (138, 62, 135);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.login .card-login{
+    margin: 0px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(243, 119, 140);
+    font-size: large;
+    padding: 0px;
+}
+.login .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login .card-login span{
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    justify-self: flex-start;
+}
+input{
+    margin-bottom: 10px;
+    width: 450px;
+    height: 34px;
+    border: 4px;
+    border: solid;
+    border-color: #32b9cd;
+    border-radius: 8px;
+    text-align: center;
+}
+button{
+    width: 90px;
+    height: 30px;
+    background-color: rgb(228, 65, 92);
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.login .card-cadastro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    color:rgb(228, 65, 92);
+}
+.login .card-cadastro span{
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    justify-self: flex-start;
+}
+
+.footer{
+    width: 100%;
+    height: 120px;
+    background-color: #32b9cd;
+}
+.footer .container{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.footer .container h4{
+    margin-bottom: 0px;
+}
